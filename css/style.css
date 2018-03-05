@@ -1,0 +1,116 @@
+/* Your custom styles */
+header .navbar {
+	box-shadow: none;
+}
+header .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+	color: #000;
+	font-weight: bold;
+}
+header .nav-item .btn {
+	padding: 0.5rem 0.85rem;
+	margin: 0 6px;
+	border-radius: 10px;
+}
+#banner {
+	position: relative;
+}
+#banner .banner-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 420px) and (max-width: 768px) {
+	.banner-content {
+		display: none;
+	}
+}
+#banner .banner-content .btn,
+#service .service-btn .btn {
+	border-radius: 10px;
+}
+#service .service-content i {
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background-color: #eee;
+	border-radius: 50%;
+	text-align: center;
+}
+
+#price {
+	background: url(../img/price-bg.jpg);
+}
+#price .price-extra {
+	border-top: 4px solid red;
+	border-radius: 10px;
+}
+#price .extra-btn .btn {
+	border-radius: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.extra-btn {
+		margin-top: 50px;
+	}
+}
+#clients .testimonial {
+	border-radius: 30px;
+}
+#clients .avatar {
+	border-bottom: 4px solid orange;
+}
+#clients .client-logo img{
+	border: 2px solid #ddd;
+	border-radius: 10px;
+}
+@media screen and (min-width: 575px){
+	#clients .avatar  {
+		border-bottom: none;
+	}
+}
+
+#domain {
+	background: url(../img/domain-bg.jpg);
+}
+#domain .domain-search .form-row input{
+	border: 1px solid #fff;
+	border-radius: 10px;
+	height: 1.8rem;
+	color: #fff;
+	overflow: hidden;
+}
+#domain .domain-search .form-row input::placeholder {
+	color: #fff;
+	padding-left: 10px;
+}
+#domain .domain-search .form-row .btn {
+	border-radius: 10px;
+	box-shadow: none;
+	padding: 0.95rem 2.13rem;
+	margin: 0px 6px;
+}
+#domain .domain-check {
+	width: 600px;
+	margin: 0 auto;
+}
+#domain .domain-check [type=checkbox]+label:before {
+	border: 2px solid #fff;
+}
+#contact {
+	background-color: #1F1F1F;
+}
+#contact .contact-info [type=email],
+#contact .contact-info [type=password] {
+	border: 1px solid #fff;
+	padding: 0px 10px;
+	border-radius: 5px;
+}
+#contact .contact-info textarea {
+	border-radius: 5px;
+}
+#contact .contact-info .btn {
+	border-radius: 10px;
+}
+footer .footer-top {
+	/*background-color: #000;*/
+}
